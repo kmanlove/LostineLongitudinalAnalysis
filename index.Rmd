@@ -1039,7 +1039,7 @@ plot(rep(1, 18) ~ seq(1, 18, by = 1), col = prev.col.in[1:18], pch = 15, cex = 8
 ## Other Calculations
 
 ### Power analysis for load difference between intermittents and carriers. 
-```{r}
+```{r, cache = T}
 samplesWithqPCR <- read.csv("./Data/LostineSample2016Final.csv", header = T)
 
 qpcrs <- subset(samplesWithqPCR, is.na(movi_direct_pcr) == F)
