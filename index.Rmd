@@ -1254,3 +1254,34 @@ segments(x0 = 6.5, x1 = 6.5, y0 = obs.1.ci.xyr[1], y1 = obs.1.ci.xyr[2])
 segments(x0 = 7.5, x1 = 7.5, y0 = obs.2.ci.xyr[1], y1 = obs.2.ci.xyr[2])
 # dev.off()
 ```
+
+### ELISA and Ct comparisons among intermittent and chronically infected animals. 
+We use median-based test here because the process generating Ct is approximately a doubling process, and because sampling variation plays a much larger role at high Ct values (e.g., very low pathogen loads) than at low Ct values (when loads are high). 
+```{r}
+```
+
+### Mortalities during the study
+The following animals died before the beginning of this study:
+00L08
+00L16
+00L20
+00L27
+04LO17
+04LO72
+99L01
+99L23
+99LO27
+
+The following animals died during the study: 
+00L13 -- carrier -- died 02/02/2014, unknown cause
+00L19 -- carrier (2 + in 1 yr) -- died 01/24/2015, predation
+04LO65 -- carrier/inter -- died 11/06/2013, hunting
+10LO23 -- carrier (2 + in 1 yr) -- 09/17/2013, unknown
+12LO52 -- (only 1 test, indeterminate) -- 09/17/2014, hunting
+
+
+The following animals had dead radiocollars during the study: 
+99L03, 01LO32, 02LO43, 03LO50, 12LO76, 13LO00, 00MI42
+
+The following animals were moved to captivity:
+01LO34, 04LO12, 04LO60, 12LO56, 03LO48
